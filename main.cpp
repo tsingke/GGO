@@ -15,7 +15,7 @@ int main() {
 	{
 
 		printf("CEC2017 F%d:\n", f);
-		//计时开始
+	
 		cudaEvent_t start, stop;
 		float elapsed_time1, mean1 = 0, min1 = INFINITY, max1 = 0,
 			elapsed_time2, mean2 = 0, min2 = INFINITY, max2 = 0;
